@@ -1,0 +1,39 @@
+# Build results
+bin/
+obj/
+out/
+
+# Rider project files
+.idea/
+
+# VS Code settings
+.vscode/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio working folder
+.vs/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs
+*.log
+
+# ASP.NET Core specific files
+newassetmanagement.Web.API/appsettings.json
+newassetmanagement.Web.API/appsettings.Development.json
+secrets.json
+
+# dotnet user-secrets
+**/secrets.json
+
+# Publish directory
+publish/
