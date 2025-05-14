@@ -14,7 +14,7 @@ namespace NewAsset.Application.Common.Interfaces.Persistence
     /// </summary>
     public interface IGenericRepository<T> where T : IDbEntity
     {
-        Task<IEnumerable<T>> GetAsync(QueryParameters queryParameters, params string[] selectData);
+       // Task<IEnumerable<T>> GetAsync(QueryParameters queryParameters, params string[] selectData);
         Task<T> GetByIdAsync(string guid, params string[] selectData);
         Task<IEnumerable<T>> GetBySpecificColumnAsync(string columnName, string columnValue, params string[] selectData);
         Task<string> AddAsync(T entity);

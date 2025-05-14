@@ -51,3 +51,4 @@ global using  Microsoft.Extensions.Caching.Distributed;
 global using NewAsset.Application.Common.Utilities;
 global using Microsoft.Extensions.Options;
 global using NewAsset.Infrastructure.Common.Utilities;
+global using NewAsset.Infrastructure.Services;

@@ -20,6 +20,7 @@ namespace NewAsset.Infrastructure.Persistence.Repositories
         {
             _dapperDataContext = dapperDataContext;
         }
+        /*
         public async Task<IEnumerable<T>> GetAsync(QueryParameters queryParameters, params string[] selectData)
         {
             var parameters = new DynamicParameters();
@@ -35,6 +36,7 @@ namespace NewAsset.Infrastructure.Persistence.Repositories
                 return await connection.QueryAsync<T>("spGetRecords", parameters, commandType: CommandType.StoredProcedure);
             }
         }
+        */
         public async Task<T> GetByIdAsync(string guid, params string[] selectData)
         {
             var parameters = new DynamicParameters();

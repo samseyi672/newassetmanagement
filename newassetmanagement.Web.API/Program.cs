@@ -1,11 +1,17 @@
 
+using NewAsset.Infrastructure.Configuration;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 //Register services of all the layers
 builder.Services.AddApplication()
-    .AddPresentation()
-    .AddInfrastructure();
+        .AddInfrastructure()
+        .AddApplicationServices()
+        .AddCachingServices(builder.Configuration)
+        .AddSessionServices()
+        .AddConfigurationOptions(builder.Configuration)
+        .AddPresentation();
 
 var app = builder.Build();
 
