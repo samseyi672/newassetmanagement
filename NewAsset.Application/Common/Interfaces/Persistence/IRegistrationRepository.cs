@@ -10,5 +10,6 @@ namespace NewAsset.Application.Common.Interfaces.Persistence
         Registration GetRegistrationByBvnAndUserType(string bvn, string UserType);
         void AddRegistration(Registration registration);
         Registration GetRegistrationByUserNameAndUserType(string userName, string userType);
+        Registration GetRegistrationByReference(string reference);
     }
 }

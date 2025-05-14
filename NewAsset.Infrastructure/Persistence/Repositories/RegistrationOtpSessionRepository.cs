@@ -11,9 +11,10 @@ namespace NewAsset.Infrastructure.Persistence.Repositories
 
         public void AddRegistrationSession(RegistrationOtpSession RegistrationOtpSession)
         {
-            var existingUser = _context.RegistrationOtpSession.FirstOrDefault(u => u.id == RegistrationOtpSession.id);
+            var existingUser = _context.RegistrationOtpSession.FirstOrDefault(u => u.Session == RegistrationOtpSession.Session);
             if (existingUser != null)
             {
+                 existingUser.Session = RegistrationOtpSession.Session;
                 _context.Entry(existingUser).CurrentValues.SetValues(RegistrationOtpSession);
             }
             else

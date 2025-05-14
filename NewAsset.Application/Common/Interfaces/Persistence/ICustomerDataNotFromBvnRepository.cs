@@ -11,5 +11,6 @@ namespace NewAsset.Application.Common.Interfaces.Persistence
         void UpdateOCustomerDataNotFromBvn(CustomerDataNotFromBvn CustomerDataNotFromBvn);
         void DeleteCustomerDataNotFromBvn(string userName);
         CustomerDataNotFromBvn GetCustomerDataNotFromBvnByUserIdAndUserType(long UserId, string userType);
+        CustomerDataNotFromBvn GetCustomerDataNotFromBvnByPhoneNumberAndEmail(string Email,string PhoneNumber);
     }
 }

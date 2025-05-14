@@ -45,3 +45,5 @@ global using Newtonsoft.Json.Linq;
 global using System.Globalization;
 global using NewAsset.Application.Common.dtos.enums;
 global using NewAsset.Domain.RegistrationOtpSession.Models;
+global using NewAsset.Application.Common.Utilities;
+global using NewAsset.Application.Common.Interfaces.Persistence;

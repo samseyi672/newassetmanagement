@@ -49,3 +49,5 @@ global using System.Globalization;
 global using NewAsset.Application.Common.dtos.enums;
 global using  Microsoft.Extensions.Caching.Distributed;
 global using NewAsset.Application.Common.Utilities;
+global using Microsoft.Extensions.Options;
+global using NewAsset.Infrastructure.Common.Utilities;

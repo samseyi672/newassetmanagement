@@ -62,5 +62,10 @@ namespace NewAsset.Infrastructure.Persistence.Repositories
         {
             return _context.CustomerDataNotFromBvn.FirstOrDefault(p => p.UserId == UserId && string.Equals(p.UserType, userType, StringComparison.CurrentCultureIgnoreCase));
         }
+
+        public CustomerDataNotFromBvn GetCustomerDataNotFromBvnByPhoneNumberAndEmail(string Email, string PhoneNumber)
+        {
+            return _context.CustomerDataNotFromBvn.FirstOrDefault(p => p.Email == Email || p.PhoneNumber==PhoneNumber);
+        }
     }
 }

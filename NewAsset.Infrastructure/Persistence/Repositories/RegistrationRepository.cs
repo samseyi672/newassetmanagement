@@ -39,6 +39,12 @@ namespace NewAsset.Infrastructure.Persistence.Repositories
                 string.Equals(registration.UserType,UserType,StringComparison.CurrentCultureIgnoreCase));
         }
 
+        public Registration GetRegistrationByReference(string reference)
+        {
+            return _context.Registration
+            .FirstOrDefault(registration => registration.RequestReference==reference);
+        }
+
         public Registration GetRegistrationByUserNameAndUserType(string userName, string userType)
         {
           return _context.Registration

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/7XFsysDkTrRD2Z2FPJlXz7yrR9fnRttkB5bKlkvq7CkehaOU+c/iVrgan9SMbXUPcJBybEPykvwlQ9I57VFdg==",
+  "dgSpecHash": "VGnIhB7esAunDYvSJtP0NxgOAPJxP2KyDLstFk02aaULVIwg50cIfvjAZGr6rGrcDIpb3Eo2XUEssh/7UalKMQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\samson.oluwaseyi\\source\\repos\\AssetTestSolution\\NewAsset.Infrastructure\\NewAsset.Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -36,6 +36,7 @@
     "C:\\Users\\samson.oluwaseyi\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.0\\pipelines.sockets.unofficial.2.2.0.nupkg.sha512",
     "C:\\Users\\samson.oluwaseyi\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\6.0.3\\pomelo.entityframeworkcore.mysql.6.0.3.nupkg.sha512",
     "C:\\Users\\samson.oluwaseyi\\.nuget\\packages\\restsharp\\106.13.0\\restsharp.106.13.0.nupkg.sha512",
+    "C:\\Users\\samson.oluwaseyi\\.nuget\\packages\\scriban\\5.1.0\\scriban.5.1.0.nupkg.sha512",
     "C:\\Users\\samson.oluwaseyi\\.nuget\\packages\\stackexchange.redis\\2.2.4\\stackexchange.redis.2.2.4.nupkg.sha512",
     "C:\\Users\\samson.oluwaseyi\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
     "C:\\Users\\samson.oluwaseyi\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",

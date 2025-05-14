@@ -193,6 +193,8 @@ namespace NewAsset.Application.Common.dtos.enums
         [Description("Client identity is missing.Please contact the admin")]
         ClientIdNotFound,
         [Description("Please provide an optional email")]
-        NoValidEmail
+        NoValidEmail,
+        [Description("No Registration Found")]
+        RegistratioNotFound
     }
 }

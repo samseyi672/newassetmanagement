@@ -1,9 +1,5 @@
 ﻿using NewAsset.Domain.UserCredentials.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace NewAsset.Application.Common.Interfaces.Persistence
 {
@@ -14,5 +10,6 @@ namespace NewAsset.Application.Common.Interfaces.Persistence
         void AddUserCredentials(UserCredentials registration);
         void UpdateUser(UserCredentials registration);
         void DeleteUserCredentials(int ucid);
+        UserCredentials GetUserCredentialsByUcidAndUserIdAndUserType(long uniqueref,long userid, string usertype);
     }
 }
